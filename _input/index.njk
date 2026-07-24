@@ -1,0 +1,103 @@
+---
+layout: _base.njk
+pageTitle: Isral Duke — UI, UX & accessibility designer
+pageDescription: Fifteen years designing and coding standards-compliant products — a state design system, a digital driver's license, telemedicine tooling.
+---
+{% set featured = collections.featuredProduct %}
+{% set rest = collections.otherProducts %}
+<section class="hero">
+  <h1 class="hero__title">{{ site.hero.titleLine1 | safe }}<br><em>{{ site.hero.titleEm }}</em><br>{{ site.hero.titleLine2 }}</h1>
+  <div class="hero__row">
+    <p class="hero__lede">{{ site.hero.lede }}</p>
+    <a class="button" href="{{ featured.url }}">See a case study &rarr;</a>
+  </div>
+</section>
+
+<section class="section section--work" id="work">
+  <h2 class="section__eyebrow">Selected Work</h2>
+  <a class="featured-project" href="{{ featured.url }}">
+    <div class="featured-project__cover">
+      <span class="placeholder-tag">cover &middot; {{ featured.data.title }}</span>
+    </div>
+    <div class="featured-project__body">
+      <div>
+        <div class="featured-project__kicker">01 / FEATURED</div>
+        <h3 class="featured-project__title">{{ featured.data.title }}</h3>
+      </div>
+      <p class="featured-project__excerpt">{{ featured.data.excerpt }}</p>
+    </div>
+  </a>
+  <div class="project-grid">
+    {% for project in rest %}
+    <a class="project-card" href="{{ project.url }}">
+      <div class="project-card__cover"></div>
+      <div class="project-card__body">
+        <h3 class="project-card__title">{{ project.data.title }}</h3>
+        <p class="project-card__excerpt">{{ project.data.excerpt }}</p>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section" id="skills">
+  <h2 class="section__eyebrow">Capabilities</h2>
+  <div class="capabilities-grid">
+    {% for skill in site.skills %}
+    <div class="capability">
+      <h3 class="capability__title">{{ skill.title }}</h3>
+      <p class="capability__desc">{{ skill.description }}</p>
+      <ul class="capability__list">
+        {% for item in skill.listItems %}<li>{{ item }}</li> {% endfor %}
+      </ul>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section" id="certs">
+  <h2 class="section__eyebrow">Certifications</h2>
+  <div class="certs-grid">
+    {% for cert in site.certification %}
+    <a class="cert-card" href="{{ cert.link }}" target="_blank" rel="noopener noreferrer">
+      <div>
+        <div class="cert-card__title">{{ cert.title }}</div>
+        <div class="cert-card__desc">{{ cert.description }}</div>
+      </div>
+      <span class="cert-card__date">{{ cert.dateLabel }}</span>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section">
+  <h2 class="section__eyebrow">Talks</h2>
+  <div class="talks-grid">
+    {% for talk in site.talks_given %}
+    <a class="talk-card" href="{{ talk.link }}" target="_blank" rel="noopener noreferrer">
+      <div class="talk-card__cover">
+        <span class="talk-card__play" aria-hidden="true">&#9654;</span>
+      </div>
+      <div class="talk-card__body">
+        <h3 class="talk-card__title">{{ talk.title }}</h3>
+        <p class="talk-card__desc">{{ talk.description | truncate(140) }}</p>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section" id="references">
+  <h2 class="section__eyebrow">References</h2>
+  <div class="refs-grid">
+    {% for ref in site.professional_references %}
+    <a class="ref-card" href="{{ ref.link }}" target="_blank" rel="noopener noreferrer">
+      <span class="ref-card__avatar" aria-hidden="true"><span>photo</span></span>
+      <span class="ref-card__text">
+        <span class="ref-card__name">{{ ref.title }}</span>
+        <span class="ref-card__desc">{{ ref.description }}</span>
+      </span>
+    </a>
+    {% endfor %}
+  </div>
+</section>

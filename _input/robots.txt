@@ -1,0 +1,4 @@
+Sitemap: https://isralduke.com/sitemap.xml
+
+User-agent: *
+Disallow:
