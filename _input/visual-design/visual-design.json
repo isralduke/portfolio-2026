@@ -1,0 +1,5 @@
+{
+  "layout" : "_visual-design.njk",
+  "tags"   : "visual-design",
+  "permalink": "product-design/{{ page.fileSlug }}"
+}
