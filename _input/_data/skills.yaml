@@ -1,0 +1,31 @@
+- title: Design
+  description: Design means intentially creating for both the users and the business.
+  listItems:
+    - Inclusive Design
+    - Design Systems
+    - Product Design
+    - Visual Design
+
+- title: User Experience
+  description: This means learning about users and designing for their needs while respecting the business goals.
+  listItems:
+    - User Research
+    - Information Architecture
+    - Accessible Content
+    - Public Speaking
+
+- title: Technical
+  description: Technology is how we build products. We must consider feasibility, accessibility, and timelines.
+  listItems:
+    - Accessible Markup
+    - Frontend
+    - HTML, SCSS, CSS
+    - Working within technical constraints
+
+- title: Accessibility
+  description: Designing and coding within accepted standards to ensure equal access regardless of technology.
+  listItems:
+    - Accessible Markup
+    - Proper ARIA
+    - WCAG 2.2
+    - Screen Readers
