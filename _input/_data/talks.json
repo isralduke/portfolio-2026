@@ -1,0 +1,26 @@
+[
+	{
+		"title":"Just in Time Usability",
+		"description":"Isral Duke presents why accessibility is important for business. He also presents 10 things that site owners can do to quick check their site’s accessibility and usability. Presented at a local ecommerce group lunch.",
+		"date":"2023-03-08",
+		"link":"https://youtu.be/UNe7NsCdfUE",
+		"embed":"UNe7NsCdfUE",
+		"deck":"https://docs.google.com/presentation/d/1l25HmCd4VSifHgeyXMD4Ydr70hDyX4-gFm_EN2qiMDY/edit?usp=sharing"
+	},
+	{
+		"title":"Accessible, Friendly Content",
+		"description":"Isral Duke demonstrates how iOS and MacOS VoiceOver presents a simple web page. This talk promotes the use of semantic, meaningful markup to make a better user experience. Presented at Google Developer Groups.",
+		"date":"2022-10-29",
+		"link":"https://youtu.be/zyohrLEZfys",
+		"embed":"zyohrLEZfys",
+		"deck":"https://www.dropbox.com/s/i9rnmsfopeemb4h/Accessible%20Friendly%20Content%20Isral%20Duke.pdf?dl=0"
+	},
+	{
+		"title":"Building Pelican Design System",
+		"description":"Isral Duke presents version one of Pelican Design System. He talks about how it was created, and what’s coming next in version two. Presented at SQL Saturday.",
+		"date":"2022-08-06",
+		"link":"https://youtu.be/ZKYufkpBG6Q",
+		"embed":"ZKYufkpBG6Q",
+		"deck":"https://www.dropbox.com/s/3i90j38jm2jhl09/Building%20Pelican%20Design%20System%20Isral%20Duke.pdf?dl=0"
+	}
+]

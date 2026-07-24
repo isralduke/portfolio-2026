@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ pageTitle }}</title>
+<meta name="description" content="{{ pageDescription }}">
+<script>
+(function(){try{var t=localStorage.getItem('theme')||(window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t);}catch(e){}})();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+<div>
+  <header class="site-header">
+    <div class="site-header__bar">
+      <a class="brand" href="/">
+        <span class="brand__mark" aria-hidden="true">{{ site.brand.mark }}</span>
+        <span class="brand__name">{{ site.brand.name }}</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <ul style="display:flex;align-items:center;gap:26px;list-style:none;margin:0;padding:0">
+        {% for item in site.nav %}
+        <li><a class="site-nav__link" href="{{ item.href }}">{{ item.label }}</a></li>
+        {% endfor %}
+        </ul>
+      </nav>
+      <button class="theme-toggle" data-theme-toggle type="button">Dark</button>
+      <button class="hamburger" data-menu-toggle type="button" aria-expanded="false" aria-controls="mobile-nav">
+        <span class="hamburger__lines" aria-hidden="true"><span></span><span></span><span></span></span>
+        Menu
+      </button>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" data-mobile-nav aria-label="Mobile">
+      {% for item in site.nav %}
+      <a class="mobile-nav__link" href="{{ item.href }}">{{ item.label }}</a>
+      {% endfor %}
+      <button class="theme-toggle" data-theme-toggle type="button">Dark</button>
+    </nav>
+  </header>
+  <main>
+  {{ content | safe }}
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <div class="site-footer__hire">
+      <p>Hire me.</p>
+    </div>
+    <div class="site-footer__grid">
+      <div>
+        <div class="footer-brand">
+          <span class="brand__mark" aria-hidden="true">{{ site.brand.mark }}</span>
+          <span class="brand__name">{{ site.brand.name }}</span>
+        </div>
+        <p class="site-footer__blurb">{{ site.footerBlurb | safe }}</p>
+        <a class="linkedin-link" href="{{ site.linkedin }}" target="_blank" rel="noopener noreferrer">
+          <span class="linkedin-link__dot" aria-hidden="true"></span>
+          Connect on LinkedIn &rarr;
+        </a>
+      </div>
+      <div class="footer-col">
+        <p class="footer-col__label">Skills</p>
+        <ul>
+        {% for skill in site.skills %}
+        <li>{{ skill.title }}</li>
+        {% endfor %}
+        </ul>
+      </div>
+      <div class="footer-col">
+        <p class="footer-col__label">Certifications</p>
+        <ul>
+        {% for cert in site.certsBrief %}
+        <li><a href="{{ cert.link }}" target="_blank" rel="noopener noreferrer">{{ cert.title }}</a></li>
+        {% endfor %}
+        </ul>
+      </div>
+    </div>
+    <nav class="site-footer__links" aria-label="Footer">
+      {% for item in site.nav %}
+      <a href="{{ item.href }}">{{ item.label }}</a>
+      {% endfor %}
+      <a href="{{ site.resume }}" target="_blank" rel="noopener noreferrer">Resume</a>
+    </nav>
+    <div class="site-footer__legal">
+      <div class="site-footer__legal-row">
+        <span>&copy; 2026 {{ site.name }}</span>
+        <span>{{ site.location }}</span>
+      </div>
+    </div>
+  </footer>
+</div>
+  <script src="/js/main.js" defer></script>
+</body>
+</html>
