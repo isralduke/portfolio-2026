@@ -9,8 +9,8 @@
   --line: rgba(0, 0, 0, .1);
   --line2: rgba(0, 0, 0, .15);
   --panel: rgba(0, 0, 0, .04);
-  --accent: oklch(0.72 0.15 66);
-  --on-accent: #1a1714;
+  --accent: #E00034;
+  --on-accent: #ffffff;
   --stripe-a: #e8e3d8;
   --stripe-b: #f0ebe0;
   --sticky: rgba(245, 242, 236, .82);
@@ -46,8 +46,8 @@
   --line: rgba(255, 255, 255, .1);
   --line2: rgba(255, 255, 255, .14);
   --panel: rgba(255, 255, 255, .05);
-  --accent: oklch(0.8 0.15 78);
-  --on-accent: #161418;
+  --accent: #ff2a5c;
+  --on-accent: #000000;
   --stripe-a: #232026;
   --stripe-b: #1c1a20;
   --sticky: rgba(22, 20, 24, .82);
@@ -64,8 +64,8 @@
     --line: rgba(255, 255, 255, .1);
     --line2: rgba(255, 255, 255, .14);
     --panel: rgba(255, 255, 255, .05);
-    --accent: oklch(0.8 0.15 78);
-    --on-accent: #161418;
+    --accent: #E00034;
+    --on-accent: #ffffff;
     --stripe-a: #232026;
     --stripe-b: #1c1a20;
     --sticky: rgba(22, 20, 24, .82);
