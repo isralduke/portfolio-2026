@@ -4,15 +4,15 @@
 		{% if item.data.featured %}
 			<a class="featured-project" href="{{ item.url}}">
 				<div class="featured-project__cover">
-					<span class="placeholder-tag">cover &middot; {{ item.title }}</span>
+					{# <span class="placeholder-tag">cover &middot; {{ item.title }}</span> #}
 					<img src="{{ item.data.coverImage }}" alt="{{ item.data.coverImageAlt }}">
 				</div>
 				<div class="featured-project__body">
 					<div>
 						<div class="featured-project__kicker">01 / FEATURED</div>
-						<h3 class="featured-project__title">{{ item.title }}</h3>
+						<h3 class="featured-project__title">{{ item.data.title }}</h3>
 					</div>
-					<p class="featured-project__excerpt">{{ item.excerpt }}</p>
+					<p class="featured-project__excerpt">{{ item.data.excerpt }}</p>
 				</div>
 			</a>
 		{% endif %}

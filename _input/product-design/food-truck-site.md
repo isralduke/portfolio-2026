@@ -48,10 +48,10 @@ sections:
         alt: User journey map for Ricky.
       - url: /images/product-design/food-truck-site/research-and-key-challenges-2.jpg
         alt: User journey map for Tina.
-      - url: /images/product-design/food-truck-site/research-and-key-challenges-3.jpg
-        alt: Empathy map for Ricky.
-      - url: /images/product-design/food-truck-site/research-and-key-challenges-4.jpg
-        alt: Empathy map for Tina.
+      #- url: /images/product-design/food-truck-site/research-and-key-challenges-3.jpg
+      #  alt: Empathy map for Ricky.
+      #- url: /images/product-design/food-truck-site/research-and-key-challenges-4.jpg
+      #  alt: Empathy map for Tina.
   - name: Initial Design Concepts & Wireframes
     content: >-
       The wireframes were created alongside the users' input. Their interviews became the basis for

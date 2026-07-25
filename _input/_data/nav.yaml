@@ -1,0 +1,23 @@
+- title: "Product Design"
+  link:  "/product-design/"
+  place: "top"
+
+- title: "Certifications"
+  link:  "#certifications"
+  place: "top"
+
+- title: "Skills"
+  link:  "#skills"
+  place: "top"
+
+- title: "References"
+  link:  "#references"
+  place: "top"
+
+- title: "Contact"
+  link:  "#contact"
+  place: "top"
+
+- title: "Resume"
+  link:  "url"
+  place: "bottom"

@@ -1,3 +1,11 @@
+- title: Accessibility
+  description: Designing and coding within accepted standards to ensure equal access regardless of technology.
+  listItems:
+    - Accessible Markup
+    - Proper ARIA
+    - WCAG 2.2
+    - Screen Readers
+
 - title: Design
   description: Design means intentially creating for both the users’ task outcomes and the business goals.
   listItems:
@@ -5,14 +13,6 @@
     - Design Systems
     - Product Design
     - Visual Design
-
-- title: User Experience
-  description: This means learning about users and designing for their needs while respecting the business goals.
-  listItems:
-    - User Research
-    - Information Architecture
-    - Accessible Content
-    - Public Speaking
 
 - title: Technical
   description: Technology is how we build products. We must consider feasibility, accessibility, and timelines.
@@ -22,10 +22,10 @@
     - HTML, SCSS, CSS
     - Working within technical constraints
 
-- title: Accessibility
-  description: Designing and coding within accepted standards to ensure equal access regardless of technology.
+- title: User Experience
+  description: This means learning about users and designing for their needs while respecting the business goals.
   listItems:
-    - Accessible Markup
-    - Proper ARIA
-    - WCAG 2.2
-    - Screen Readers
+    - User Research
+    - Information Architecture
+    - Accessible Content
+    - Public Speaking
