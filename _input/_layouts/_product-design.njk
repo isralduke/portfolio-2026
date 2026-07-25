@@ -3,39 +3,54 @@ layout: _base.njk
 ---
 <div class="progress-bar" data-progress></div>
 <nav class="case-back">
-  <a class="case-back__link" href="/#work">&larr; All work</a>
+	<a class="case-back__link" href="index.html#work">&larr; All work</a>
 </nav>
 <header class="case-header">
-  <p class="case-header__kicker">CASE STUDY</p>
-  <h1 class="case-header__title">{{ title }}</h1>
-  <dl class="case-stats">
-    {% for stat in stats %}
-    <div><dt>{{ stat.label }}</dt><dd>{{ stat.value }}</dd></div>
-    {% endfor %}
-    <div><dt>Role</dt><dd>{{ roles | join(", ") }}</dd></div>
-  </dl>
+	<p class="case-header__kicker">CASE STUDY</p>
+	<h1 class="case-header__title">{{ title }}</h1>
+	<dl class="case-stats">
+		{% for stat in stats %}
+			<div>
+				<dt>{{ stat.label }}</dt>
+				<dd>{{ stat.value }}</dd>
+			</div>
+		{% endfor %}
+	</dl>
 </header>
+<div class="case-hero">
+	<figure class="case-hero-image">
+		<img src="{{ coverImage }}" alt="{{ coverImage.alt }}">
+	</figure>
+</div>
 <div class="case-layout">
-  <nav class="case-toc" aria-label="Contents">
-    <p class="case-toc__label">Contents</p>
-    {% for section in sections %}
-    <a class="case-toc__link" href="#{{ section.name | slugify }}"><span class="case-toc__num">{{ "0" if loop.index < 10 else "" }}{{ loop.index }}</span><span class="case-toc__name">{{ section.name }}</span></a>
-    {% endfor %}
-  </nav>
-  <article class="case-body">
-    {% for section in sections %}
-    <section class="case-section" id="{{ section.name | slugify }}">
-      <h2 class="case-section__heading">{{ "0" if loop.index < 10 else "" }}{{ loop.index }} &mdash; {{ section.name }}</h2>
-      <p class="case-section__content">{{ section.content }}</p>
-      {% if section.images %}
-      <div class="case-media">
-        {% for alt in section.imageAlts %}
-        <figure class="case-media__item"><figcaption>{{ alt }}</figcaption></figure>
-        {% endfor %}
-      </div>
-      {% endif %}
-    </section>
-    {% endfor %}
-    <a class="button case-cta" href="{{ tryitLink }}" target="_blank" rel="noopener noreferrer">Try the prototype &rarr;</a>
-  </article>
+	<nav class="case-toc" aria-label="Contents">
+		<p class="case-toc__label">Contents</p>
+		{% for section in sections %}
+			<a class="case-toc__link" href="#{{ section.name | slugify }}">
+				<span class="case-toc__num">{% if loop.index < 10 %}0{% endif %}{{ loop.index }}</span>
+				<span class="case-toc__name">{{ section.name }}</span>
+			</a>
+		{% endfor %}
+	</nav>
+	<article class="case-body">
+		{% for section in sections %}
+		<section class="case-section" id="{{ section.name | slugify }}">
+			<h2 class="case-section__heading">{{ loop.index }} &mdash; {{ section.name }}</h2>
+			<p class="case-section__content">{{ section.content }}</p>
+			{% if section.images %}
+				<div class="case-media">
+					{% for image in section.images %}
+						<figure class="case-media__item">
+							<img src="{{ image.url }}" alt="{{ image.alt }}">
+						</figure>
+					{% endfor %}
+				</div>
+			{% endif %}
+		</section>
+		{% endfor %}
+		
+		<a class="button case-cta" href="{{ tryitLink }}" target="_blank" rel="noopener noreferrer">
+			Try the prototype &rarr;
+		</a>
+	</article>
 </div>

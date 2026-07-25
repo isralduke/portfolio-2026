@@ -1,0 +1,16 @@
+<section class="section" id="skills">
+	<h2 class="section__eyebrow">Capabilities</h2>
+	<div class="capabilities-grid">
+		{% for item in skills %}
+			<div class="capability">
+				<h3 class="capability__title">{{ item.title }}</h3>
+				<p class="capability__desc">{{ item.description }}</p>
+				<ul class="capability__list">
+					{% for listItem in item.listItems %}
+						<li>{{ listItem }}</li>
+					{% endfor %}
+				</ul>
+			</div>
+		{% endfor %}
+	</div>
+</section>

@@ -1,0 +1,16 @@
+<section class="section">
+	<h2 class="section__eyebrow">Talks</h2>
+	<div class="talks-grid">
+		{% for item in talks %}
+			<a class="talk-card" href="{{ item.link }}" target="_blank" rel="noopener noreferrer">
+				<div class="talk-card__cover">
+					<span class="talk-card__play" aria-hidden="true">&#9654;</span>
+				</div>
+				<div class="talk-card__body">
+					<h3 class="talk-card__title">{{ item.title }}</h3>
+					<p class="talk-card__desc">{{ item.description }}</p>
+				</div>
+			</a>
+		{% endfor %}
+	</div>
+</section>

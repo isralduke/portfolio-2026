@@ -5,11 +5,11 @@
 	<div class="site-footer__grid">
 		<div>
 			<div class="footer-brand">
-				<span class="brand__mark" aria-hidden="true">{{ site.brand.mark }}</span>
-				<span class="brand__name">{{ site.brand.name }}</span>
+				<span class="brand__mark" aria-hidden="true">ID</span>
+				<span class="brand__name">ISRAL DUKE</span>
 			</div>
-			<p class="site-footer__blurb">{{ site.footerBlurb | safe }}</p>
-			<a class="linkedin-link" href="{{ site.linkedin }}" target="_blank" rel="noopener noreferrer">
+			<p class="site-footer__blurb">UI, UX &amp; accessibility designer building standards-compliant products people can actually use.</p>
+			<a class="linkedin-link" href="https://linkedin.com/in/isralduke" target="_blank" rel="noopener noreferrer">
 				<span class="linkedin-link__dot" aria-hidden="true"></span>
 				Connect on LinkedIn &rarr;
 			</a>
@@ -17,30 +17,42 @@
 		<div class="footer-col">
 			<p class="footer-col__label">Skills</p>
 			<ul>
-				{% for skill in site.skills %}
-					<li>{{ skill.title }}</li>
-				{% endfor %}
+				<li>Design</li>
+				<li>User Experience</li>
+				<li>Technical</li>
+				<li>Accessibility</li>
 			</ul>
 		</div>
 		<div class="footer-col">
 			<p class="footer-col__label">Certifications</p>
 			<ul>
-				{% for cert in site.certsBrief %}
-					<li><a href="{{ cert.link }}" target="_blank" rel="noopener noreferrer">{{ cert.title }}</a></li>
-				{% endfor %}
+				<li>
+					<a href="https://www.dropbox.com/scl/fi/tp8qy3ttg5k9frqbcdqcs/Isral-Duke.pdf?rlkey=urzvjljzngxeamcpr2wbrpv6z&amp;dl=0" target="_blank" rel="noopener noreferrer">DHS Trusted Tester Certification</a>
+				</li>
+				<li>
+					<a href="https://www.dropbox.com/scl/fi/94rmscnhne971jm7c4y2k/isral-Duke-Designers_Package-Completion-Certificate.pdf?rlkey=u9kw9lgpdn7go3rwoi22yyo4n&amp;dl=0" target="_blank" rel="noopener noreferrer">Designers Accessibility Curriculum</a>
+				</li>
+				<li>
+					<a href="https://courses.edx.org/certificates/42dc6997e0c4460f885d0763411dee0c" target="_blank" rel="noopener noreferrer">W3C Intro to Accessibility</a>
+				</li>
+				<li>
+					<a href="https://www.coursera.org/account/accomplishments/professional-cert/YD2XXQJSTD8V?utm_source=link&amp;utm_medium=certificate&amp;utm_content=cert_image&amp;utm_campaign=sharing_cta&amp;utm_product=prof" target="_blank" rel="noopener noreferrer">Google UX Design</a>
+				</li>
 			</ul>
 		</div>
 	</div>
 	<nav class="site-footer__links" aria-label="Footer">
-		{% for item in site.nav %}
-			<a href="{{ item.href }}">{{ item.label }}</a>
-		{% endfor %}
-		<a href="{{ site.resume }}" target="_blank" rel="noopener noreferrer">Resume</a>
+		<a href="index.html#work">All Projects</a>
+		<a href="index.html#contact">Contact</a>
+		<a href="index.html#certs">Certifications</a>
+		<a href="index.html#skills">Skills</a>
+		<a href="index.html#references">References</a>
+		<a href="resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
 	</nav>
 	<div class="site-footer__legal">
 		<div class="site-footer__legal-row">
-			<span>&copy; 2026 {{ site.name }}</span>
-			<span>{{ site.location }}</span>
+			<span>&copy; 2026 Isral Duke</span>
+			<span>Baton Rouge, Louisiana</span>
 		</div>
 	</div>
 </footer>

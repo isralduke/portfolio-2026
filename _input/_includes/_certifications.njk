@@ -1,0 +1,15 @@
+<section class="section" id="certs">
+		<h2 class="section__eyebrow">Certifications</h2>
+		<div class="certs-grid">
+			{% for item in certifications %}
+				<a class="cert-card" href="{{ item.link }}" target="_blank" rel="noopener noreferrer">
+					<div>
+						<div class="cert-card__title">{{ item.title }}</div>
+						<div class="cert-card__desc">{{ item.description }}</div>
+					</div>
+					<span class="cert-card__date">{{ item.date }}</span>
+				</a>
+			{% endfor %}
+		</div>
+	</section>
+	

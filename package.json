@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/isralduke/portfolio-2026#readme",
   "dependencies": {
-    "@11ty/eleventy": "^3.1.6"
+    "@11ty/eleventy": "^3.1.6",
+    "js-yaml": "^5.2.2"
   }
 }

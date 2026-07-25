@@ -1,5 +1,4 @@
 {
   "layout": "_product-design.njk",
-  "tags": "product-design",
-  "permalink": "product-design/{{ page.fileSlug }}"
+  "tags": "product-design"
 }

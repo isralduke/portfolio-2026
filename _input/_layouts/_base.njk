@@ -1,5 +1,14 @@
-{% include "_includes/_file-begin.njk" %}
+<!doctype html>
+<html lang="en">
+	<head>
+		{% include "_head.njk" %}
+	</head>
+<body>
+{% include "_header.njk" %}
 <main>
 	{{ content | safe }}
 </main>
-{% include "_includes/_file-end.njk" %}
+{% include "_footer.njk" %}
+<script src="/assets/main.js" defer></script>
+</body>
+</html>
