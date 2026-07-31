@@ -2,5 +2,5 @@
 
 ## Development Scripts
 
-Run: npm start
-Build: npm run build
+- Run: npm start
+- Build: npm run build
