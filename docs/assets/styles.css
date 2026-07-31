@@ -523,11 +523,9 @@ button { font-family: inherit; }
   padding: 2.5rem var(--pad) 2.5rem;
 }
 .case-header__kicker {
-  font-family: ui-monospace, monospace;
-  font-size: var(--font-size-small);
   letter-spacing: .12em;
-  color: var(--accent);
-  margin: 0 0 1.5rem;
+  color: var(--muted);
+  margin: 0 0 0 .4375rem;
 }
 .case-header__title {
   font-size: clamp(2.75rem, 8vw, 6.5rem);
@@ -635,6 +633,9 @@ button { font-family: inherit; }
   justify-content: center;
   padding: 1rem;
   margin: 0;
+}
+.case-media__item img {
+  box-shadow: 0 .25rem .75rem 0 rgba(26, 23, 20, .5);
 }
 .case-media__item figcaption {
   font-family: ui-monospace, monospace;
