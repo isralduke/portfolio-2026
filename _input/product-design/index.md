@@ -1,4 +1,4 @@
 ---
 title: Product Design
-layout: _product-design.njk
+layout: _project-list.njk
 ---

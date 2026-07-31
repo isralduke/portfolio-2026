@@ -1,19 +1,18 @@
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>UI, UX &amp; accessibility designer</title>
-		<meta name="description" content="">
-		<script>
-			(function(){try{var t=localStorage.getItem('theme')||(window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t);}catch(e){}})();
-		</script>
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
-		<link rel="stylesheet" href="/assets/styles.css">
-	</head>
-
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>isral Duke, A11y, AI, and Design Systems</title>
+	<meta name="description" content="">
+	<script>
+		(function(){try{var t=localStorage.getItem('theme')||(window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t);}catch(e){}})();
+	</script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="/assets/styles.css">
+</head>
 <body>
 <header class="site-header">
 	<div class="site-header__bar">
@@ -36,41 +35,42 @@
 			<span class="brand__name">ISRAL DUKE</span>
 		</a>
 		<nav class="site-nav" aria-label="Primary">
-			<ul style="display:flex;align-items:center;gap:26px;list-style:none;margin:0;padding:0">
-				
-					
-						<li>
-							<a class="site-nav__link" href="/product-design/">Product Design</a>
-						</li>
-					
-				
-					
-						<li>
-							<a class="site-nav__link" href="#certifications">Certifications</a>
-						</li>
-					
-				
-					
-						<li>
-							<a class="site-nav__link" href="#skills">Skills</a>
-						</li>
-					
-				
-					
-						<li>
-							<a class="site-nav__link" href="#references">References</a>
-						</li>
-					
-				
-					
-						<li>
-							<a class="site-nav__link" href="#contact">Contact</a>
-						</li>
-					
-				
-					
-				
-			</ul>
+			<ul class="nav-list">
+	
+		
+			<li>
+				<a class="site-nav__link" href="/product-design/">Product Design</a>
+			</li>
+		
+	
+		
+			<li>
+				<a class="site-nav__link" href="#certifications">Certifications</a>
+			</li>
+		
+	
+		
+			<li>
+				<a class="site-nav__link" href="#skills">Skills</a>
+			</li>
+		
+	
+		
+			<li>
+				<a class="site-nav__link" href="#references">References</a>
+			</li>
+		
+	
+		
+			<li>
+				<a class="site-nav__link" href="#contact">Contact</a>
+			</li>
+		
+	
+		
+	
+</ul>
+
 		</nav>
 		<button class="theme-toggle" data-theme-toggle type="button">Dark</button>
 		<button class="hamburger" data-menu-toggle type="button" aria-expanded="false" aria-controls="mobile-nav">
@@ -101,15 +101,15 @@
 </header>
 <main>
 	
-<section class="hero">
-	<h1 class="hero__title">UI, UX &amp; accessibility designer</h1>
+<section class="hero" aria-labelledby="h1">
+	<h1 class="hero__title" id="h1">A11y, AI, and Design Systems</h1>
 	<div class="hero__row">
-		<p class="hero__lede">Fifteen years designing and coding standards-compliant products — a state design system, a digital driver&#39;s license, telemedicine tooling.</p>
-		<a class="button" href="/product-design">See a case study &rarr;</a>
+		<p class="hero__lede">Design Manager with accessibility, AI, and design systems expertise.</p>
+		<!-- <a class="button" href="/product-design">Review case study &rarr;</a> -->
 	</div>
 </section>
-<section class="section section--work" id="work">
-	<h2 class="section__eyebrow">Selected Work</h2>
+<section class="section section--work" aria-labelledby="selected">
+	<h2 class="section__eyebrow" id="selected">Selected Work</h2>
 	
 		
 	
@@ -124,7 +124,7 @@
 		
 	
 		
-			<a class="featured-project" href="/product-design/medical-diagnosis-app/">
+			<a class="featured-project card-hover" href="/product-design/medical-diagnosis-app/">
 				<div class="featured-project__cover">
 					
 					<img src="/images/product-design/medical-diagnosis-app/feature.png" alt="">
@@ -145,109 +145,46 @@
 	
 	<div class="project-grid">
 		
-			
-			<a class="project-card" href="/product-design/art-gallery-app/">
-				<div class="project-card__cover">
-					<img src="/images/product-design/art-gallery-app/feature.png" alt="">
-				</div>
-				<div class="project-card__body">
-					<h3 class="project-card__title">Art Gallery App</h3>
-					<p class="project-card__excerpt">Art gallery app helps visitors plan trips, see current artwork collections, and buy tickets for themselves and loved ones.</p>
-				</div>
-			</a>
-			
 		
-			
-			<a class="project-card" href="/product-design/budget-app/">
-				<div class="project-card__cover">
-					<img src="/images/product-design/budget-app/feature.png" alt="">
-				</div>
-				<div class="project-card__body">
-					<h3 class="project-card__title">Budget App</h3>
-					<p class="project-card__excerpt">Budgeting app helps people who are new to budgeting create a budget and think along with their budget as they spend.</p>
-				</div>
-			</a>
-			
+			<a class="project-card card-hover" href="/product-design/art-gallery-app/" aria-labelledby="art-gallery-app">
+	<div class="project-card__cover">
+		<img src="/images/product-design/art-gallery-app/feature.png" alt="">
+	</div>
+	<div class="project-card__body" aria-labelledby="art-gallery-app">
+		<h3 class="project-card__title" id="art-gallery-app">Art Gallery App</h3>
+		<p class="project-card__excerpt">Art gallery app helps visitors plan trips, see current artwork collections, and buy tickets for themselves and loved ones.</p>
+	</div>
+</a>
+
 		
-			
-			<a class="project-card" href="/product-design/design-system/">
-				<div class="project-card__cover">
-					<img src="/images/product-design/design-system/feature.png" alt="">
-				</div>
-				<div class="project-card__body">
-					<h3 class="project-card__title">Design System</h3>
-					<p class="project-card__excerpt">Design System allows team members to access a single source of truth and quickly produce value.</p>
-				</div>
-			</a>
-			
+			<a class="project-card card-hover" href="/product-design/budget-app/" aria-labelledby="budget-app">
+	<div class="project-card__cover">
+		<img src="/images/product-design/budget-app/feature.png" alt="">
+	</div>
+	<div class="project-card__body" aria-labelledby="budget-app">
+		<h3 class="project-card__title" id="budget-app">Budget App</h3>
+		<p class="project-card__excerpt">Budgeting app helps people who are new to budgeting create a budget and think along with their budget as they spend.</p>
+	</div>
+</a>
+
 		
-			
-			<a class="project-card" href="/product-design/event-guide-app/">
-				<div class="project-card__cover">
-					<img src="/images/product-design/event-guide-app/feature.png" alt="">
-				</div>
-				<div class="project-card__body">
-					<h3 class="project-card__title">Event Guide App</h3>
-					<p class="project-card__excerpt">Mobile app provides conference attendees quick access to relevant presentation details and schedule information.</p>
-				</div>
-			</a>
-			
-		
-			
-			<a class="project-card" href="/product-design/food-truck-site/">
-				<div class="project-card__cover">
-					<img src="/images/product-design/food-truck-site/feature.png" alt="">
-				</div>
-				<div class="project-card__body">
-					<h3 class="project-card__title">Food Truck Site</h3>
-					<p class="project-card__excerpt">A responsive website for a food truck allows visitors to find its daily location and pay ahead.</p>
-				</div>
-			</a>
-			
-		
-			
-			<a class="project-card" href="/product-design/karaoke-app/">
-				<div class="project-card__cover">
-					<img src="/images/product-design/karaoke-app/feature.png" alt="">
-				</div>
-				<div class="project-card__body">
-					<h3 class="project-card__title">Karaoke App</h3>
-					<p class="project-card__excerpt">iOS application allows patrons to create and participate in ad hoc karaoke competitions.</p>
-				</div>
-			</a>
-			
-		
-			
-		
-			
-			<a class="project-card" href="/product-design/sketch-note-app/">
-				<div class="project-card__cover">
-					<img src="/images/product-design/sketch-note-app/feature.png" alt="">
-				</div>
-				<div class="project-card__body">
-					<h3 class="project-card__title">Sketch Note App</h3>
-					<p class="project-card__excerpt">Sketch note app allows users to create quick sticky notes on their phones.</p>
-				</div>
-			</a>
-			
-		
-			
-			<a class="project-card" href="/product-design/step-counter-app/">
-				<div class="project-card__cover">
-					<img src="/images/product-design/step-counter-app/feature.png" alt="">
-				</div>
-				<div class="project-card__body">
-					<h3 class="project-card__title">Step Counter App</h3>
-					<p class="project-card__excerpt">A watchOS and iOS step counter app which gives users a glanceable view of their steps as a watch face complication with an accompanying iOS app.</p>
-				</div>
-			</a>
-			
+			<a class="project-card card-hover" href="/product-design/design-system/" aria-labelledby="design-system">
+	<div class="project-card__cover">
+		<img src="/images/product-design/design-system/feature.png" alt="">
+	</div>
+	<div class="project-card__body" aria-labelledby="design-system">
+		<h3 class="project-card__title" id="design-system">Design System</h3>
+		<p class="project-card__excerpt">Design System allows team members to access a single source of truth and quickly produce value.</p>
+	</div>
+</a>
+
 		
 	</div>
 </section>
 
-<section class="section" id="skills">
-	<h2 class="section__eyebrow">Capabilities</h2>
+</main>
+<section class="section" id="skills" aria-labelledby="skills">
+	<h2 class="section__eyebrow" id="skills">Skills</h2>
 	<div class="capabilities-grid">
 		
 			<div class="capability">
@@ -317,8 +254,8 @@
 	</div>
 </section>
 
-<section class="section" id="certs">
-		<h2 class="section__eyebrow">Certifications</h2>
+<section class="section" id="certs" aria-labelledby="certifications">
+		<h2 class="section__eyebrow" id="certifications">Certifications</h2>
 		<div class="certs-grid">
 			
 				<a class="cert-card" href="https://www.dropbox.com/scl/fi/nuczlr5phcd6zjzsh9sdj/isral-Duke-2.pdf?rlkey=3kf91o54otjm65h0in9s8z0ru&amp;dl=0" target="_blank" rel="noopener noreferrer">
@@ -380,8 +317,8 @@
 		</div>
 	</section>
 	
-<section class="section">
-	<h2 class="section__eyebrow">Talks</h2>
+<section class="section" aria-labelledby="talks">
+	<h2 class="section__eyebrow" id="talks">Talks</h2>
 	<div class="talks-grid">
 		
 			<a class="talk-card" href="https://youtu.be/UNe7NsCdfUE" target="_blank" rel="noopener noreferrer">
@@ -417,8 +354,8 @@
 	</div>
 </section>
 
-<section class="section" id="references">
-	<h2 class="section__eyebrow">References</h2>
+<section class="section" aria-labelledby="references">
+	<h2 class="section__eyebrow" id="references">References</h2>
 	<div class="refs-grid">
 		
 			<a class="ref-card" href="https://www.linkedin.com/in/altjames" target="_blank" rel="noopener noreferrer">
@@ -496,8 +433,6 @@
 	</div>
 </section>
 	
-
-</main>
 <footer class="site-footer" id="contact">
 	<div class="site-footer__hire">
 		<p>Hire me.</p>
@@ -522,9 +457,8 @@
 				</span>
 				<span class="brand__name">ISRAL DUKE</span>
 			</div>
-			<p class="site-footer__blurb">UI, UX &amp; accessibility designer building standards-compliant products people can actually use.</p>
-			<a class="linkedin-link" href="https://linkedin.com/in/isralduke" target="_blank" rel="noopener noreferrer">
-				<span class="linkedin-link__dot" aria-hidden="true"></span>
+			<p class="site-footer__blurb">Design Manager with accessibility, AI, and design systems expertise.</p>
+			<a class="button case-cta" href="https://linkedin.com/in/isralduke" target="_blank" rel="noopener noreferrer">
 				Connect on LinkedIn &rarr;
 			</a>
 		</div>
@@ -566,12 +500,42 @@
 		</div>
 	</div>
 	<nav class="site-footer__links" aria-label="Footer">
-		<a href="index.html#work">All Projects</a>
-		<a href="index.html#contact">Contact</a>
-		<a href="index.html#certs">Certifications</a>
-		<a href="index.html#skills">Skills</a>
-		<a href="index.html#references">References</a>
-		<a href="resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+		<ul class="nav-list">
+	
+		
+			<li>
+				<a class="site-nav__link" href="/product-design/">Product Design</a>
+			</li>
+		
+	
+		
+			<li>
+				<a class="site-nav__link" href="#certifications">Certifications</a>
+			</li>
+		
+	
+		
+			<li>
+				<a class="site-nav__link" href="#skills">Skills</a>
+			</li>
+		
+	
+		
+			<li>
+				<a class="site-nav__link" href="#references">References</a>
+			</li>
+		
+	
+		
+			<li>
+				<a class="site-nav__link" href="#contact">Contact</a>
+			</li>
+		
+	
+		
+	
+</ul>
+
 	</nav>
 	<div class="site-footer__legal">
 		<div class="site-footer__legal-row">

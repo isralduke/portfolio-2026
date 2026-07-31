@@ -1,5 +1,4 @@
 ---
-title: UI, UX & accessibility designer
-description: Fifteen years designing and coding standards-compliant products — a state design system, a digital driver's license, telemedicine tooling.
+title: A11y, AI, and Design Systems
 layout: _home.njk
 ---

@@ -1,0 +1,20 @@
+---
+layout: _base.njk
+---
+{% include "_progress-bar.njk" %}
+<header class="case-header">
+	<h1 class="case-header__title">{{ title }}</h1>
+</header>
+<section class="section section--work" id="work">
+	<h2 class="section__eyebrow">Selected Work</h2>
+	<div class="project-grid">
+		{% if "product-design" in page.url %}
+			{% set items = collections["product-design"] %}
+		{% elif "visual-design" in page.url %}
+			{% set items = collections["visual-design"] %}
+		{% endif %}
+		{% for item in items %}
+			{% include "_project-card.njk" %}
+		{% endfor %}
+	</div>
+</section>

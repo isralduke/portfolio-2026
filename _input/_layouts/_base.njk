@@ -1,9 +1,27 @@
-{% include "_head.njk" %}
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>{{ site.name }}, {{ title }}</title>
+	<meta name="description" content="{% if pageDescription %}{{ pageDescription }}{% else %}{{ description}}{% endif %}">
+	<script>
+		(function(){try{var t=localStorage.getItem('theme')||(window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t);}catch(e){}})();
+	</script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="/assets/styles.css">
+</head>
 <body>
 {% include "_header.njk" %}
 <main>
 	{{ content | safe }}
 </main>
+{% include "_skills.njk" %}
+{% include "_certifications.njk" %}
+{% include "_talks.njk" %}
+{% include "_references.njk" %}
 {% include "_footer.njk" %}
 <script src="/assets/main.js" defer></script>
 </body>

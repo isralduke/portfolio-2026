@@ -1,0 +1,9 @@
+<ul class="nav-list">
+	{% for item in nav %}
+		{% if item.place == "top" %}
+			<li>
+				<a class="site-nav__link" href="{{ item.link }}">{{ item.title }}</a>
+			</li>
+		{% endif %}
+	{% endfor %}
+</ul>

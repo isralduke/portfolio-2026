@@ -2,15 +2,36 @@
 layout: _base.njk
 ---
 
-<section class="hero">
-	<h1 class="hero__title">{{ title }}</h1>
+<section class="hero" aria-labelledby="h1">
+	<h1 class="hero__title" id="h1">{{ title }}</h1>
 	<div class="hero__row">
-		<p class="hero__lede">{{ description }}</p>
-		<a class="button" href="/product-design">See a case study &rarr;</a>
+		<p class="hero__lede">{{ site.occupation }}</p>
+		<!-- <a class="button" href="/product-design">Review case study &rarr;</a> -->
 	</div>
 </section>
-{% include "_products_home.njk" %}
-{% include "_skills.njk" %}
-{% include "_certifications.njk" %}
-{% include "_talks.njk" %}
-{% include "_references.njk" %}
+<section class="section section--work" aria-labelledby="selected">
+	<h2 class="section__eyebrow" id="selected">Selected Work</h2>
+	{% for item in collections["product-design"] %}
+		{% if item.data.featured %}
+			<a class="featured-project card-hover" href="{{ item.url}}">
+				<div class="featured-project__cover">
+					{# <span class="placeholder-tag">cover &middot; {{ item.title }}</span> #}
+					<img src="{{ item.data.coverImage }}" alt="{{ item.data.coverImageAlt }}">
+				</div>
+				<div class="featured-project__body">
+					<div>
+						<div class="featured-project__kicker">01 / FEATURED</div>
+						<h3 class="featured-project__title">{{ item.data.title }}</h3>
+					</div>
+					<p class="featured-project__excerpt">{{ item.data.excerpt }}</p>
+				</div>
+			</a>
+		{% endif %}
+	{% endfor %}
+	<div class="project-grid">
+		{% set nonFeaturedItems = collections["product-design"] | rejectattr("data.featured") %}
+		{% for item in nonFeaturedItems | batch(3) | first %}
+			{% include "_project-card.njk" %}
+		{% endfor %}
+	</div>
+</section>

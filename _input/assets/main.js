@@ -59,4 +59,21 @@
     document.addEventListener('scroll', updateProgress, { passive: true });
     updateProgress();
   }
+
+  // Scroll spy for case-study TOC
+  const tocLinks = document.querySelectorAll('.case-toc__link');
+  const caseSections = document.querySelectorAll('.case-section');
+  if (tocLinks.length && caseSections.length) {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          tocLinks.forEach((link) => link.classList.remove('is-active'));
+          const id = entry.target.getAttribute('id');
+          const active = document.querySelector(`.case-toc__link[href="#${id}"]`);
+          if (active) active.classList.add('is-active');
+        }
+      });
+    }, { rootMargin: '0px 0px -60% 0px', threshold: 0 });
+    caseSections.forEach((section) => observer.observe(section));
+  }
 })();

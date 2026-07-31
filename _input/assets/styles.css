@@ -172,6 +172,9 @@ button { font-family: inherit; }
 .site-nav__link:hover { 
   color: var(--accent); 
 }
+.nav-list {
+  display:flex;align-items:center;gap:26px;list-style:none;margin:0;padding:0
+}
 
 .theme-toggle {
   font-size: var(--font-size-button);
@@ -304,6 +307,14 @@ button { font-family: inherit; }
   margin: 0 0 2rem;
 }
 
+/* Shared card hover */
+.card-hover {
+  transition: border-color .2s ease;
+}
+.card-hover:hover {
+  border-color: var(--accent);
+}
+
 /* Featured project */
 .featured-project {
   cursor: pointer;
@@ -316,7 +327,6 @@ button { font-family: inherit; }
   border: .0625rem solid var(--line);
   color: inherit;
 }
-.featured-project:hover { border-color: var(--accent); }
 .featured-project__cover {
   aspect-ratio: 16 / 9;
   background-image: repeating-linear-gradient(135deg, var(--stripe-a) 0 1rem, var(--stripe-b) 1rem 2rem);
@@ -586,12 +596,13 @@ button { font-family: inherit; }
   text-decoration: none;
 }
 .case-toc__link:hover { opacity: .6; }
+.case-toc__link.is-active .case-toc__name { font-weight: 700; color: var(--ink); }
 .case-toc__num {
   font-family: ui-monospace, monospace;
   font-size: var(--font-size-small);
   color: var(--accent);
 }
-.case-toc__name { font-size: var(--font-size-small); line-height: 1.4; color: var(--muted); }
+.case-toc__name { font-size: var(--font-size-small); line-height: 1.4; color: var(--muted); transition: font-weight .2s ease, color .2s ease; }
 
 .case-body { min-width: 0; }
 .case-section {
