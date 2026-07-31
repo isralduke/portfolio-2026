@@ -6,6 +6,7 @@ excerpt: Web application allows licensed medical personnel to remotely diagnose 
 order: 1
 featured: true
 coverImage: /images/product-design/medical-diagnosis-app/feature.png
+coverImageAlt: Laptop and tablet showing the nurses’s main view for a patient video call.
 stats:
   - label: Type
     value: Client

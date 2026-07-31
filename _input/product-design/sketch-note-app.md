@@ -6,6 +6,7 @@ excerpt: Sketch note app allows users to create quick sticky notes on their phon
 order: 8
 featured: false
 coverImage: /images/product-design/sketch-note-app/feature.png
+coverImageAlt: Four phone screens showing the home note grid, note editing screen, photo import, and annotation screen.
 stats:
   - label: Type
     value: Personal

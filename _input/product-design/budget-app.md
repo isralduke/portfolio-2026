@@ -10,6 +10,7 @@ excerpt: >-
 order: 3
 featured: false
 coverImage: /images/product-design/budget-app/feature.png
+coverImageAlt: Three screens of the app showing the intro screen, the home feed, and the transactions details.
 stats:
   - label: Type
     value: Personal

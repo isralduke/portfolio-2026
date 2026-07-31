@@ -281,7 +281,7 @@ button { font-family: inherit; }
   color: var(--on-accent);
   background: var(--accent);
   padding: 1rem 1.25rem;
-  border-radius: .25rem%;
+  border-radius: .25rem;
   white-space: nowrap;
   text-decoration: none;
   display: inline-flex;
@@ -331,7 +331,6 @@ button { font-family: inherit; }
   background-image: repeating-linear-gradient(135deg, var(--stripe-a) 0 1rem, var(--stripe-b) 1rem 2rem);
   display: flex;
   align-items: flex-end;
-  padding: 2rem;
 }
 .placeholder-tag {
   font-family: ui-monospace, monospace;

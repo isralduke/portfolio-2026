@@ -10,6 +10,7 @@ excerpt: >-
 order: 2
 featured: false
 coverImage: /images/product-design/art-gallery-app/feature.png
+coverImageAlt: Three screens of the art gallery app showing the home, ticket purchase, and artwork collection screens.
 stats:
   - label: Type
     value: Personal

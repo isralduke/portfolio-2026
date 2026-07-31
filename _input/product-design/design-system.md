@@ -6,6 +6,7 @@ excerpt: Design System allows team members to access a single source of truth an
 order: 4
 featured: false
 coverImage: /images/product-design/design-system/feature.png
+coverImageAlt: A laptop, tablet, and phone showing the design system’s home page.
 stats:
   - label: Type
     value: Employer

@@ -10,6 +10,7 @@ excerpt: >-
 order: 9
 featured: false
 coverImage: /images/product-design/step-counter-app/feature.png
+coverImageAlt: Three watchOS faces showing the face with steps, the step counter screen, and the weekly graph.
 stats:
   - label: Type
     value: Personal

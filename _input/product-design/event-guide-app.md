@@ -10,6 +10,7 @@ excerpt: >-
 order: 5
 featured: false
 coverImage: /images/product-design/event-guide-app/feature.png
+coverImageAlt: Three phone screens showing the home screen, the session category list, and the speaker biography.
 stats:
   - label: Type
     value: Personal

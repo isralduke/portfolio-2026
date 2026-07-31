@@ -6,6 +6,7 @@ excerpt: A responsive website for a food truck allows visitors to find its daily
 order: 6
 featured: false
 coverImage: /images/product-design/food-truck-site/feature.png
+coverImageAlt: A phone and tablet showing the website’s home page, featuring the food truck’s photo and the first few items on the menu.
 stats:
   - label: Type
     value: Personal

@@ -6,6 +6,7 @@ excerpt: iOS application allows patrons to create and participate in ad hoc kara
 order: 7
 featured: false
 coverImage: /images/product-design/karaoke-app/feature.png
+coverImageAlt: Three phone screens showing the karaoke competition app's home screen, team name submission screen, and music genre selection screen.
 stats:
   - label: Type
     value: Contest Entrant
