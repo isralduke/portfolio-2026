@@ -1,4 +1,4 @@
 ---
-title: A11y, AI, and Design Systems
+title: A11y, AI, Design
 layout: _home.njk
 ---

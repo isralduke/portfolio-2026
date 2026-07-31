@@ -14,6 +14,7 @@
 	<link rel="stylesheet" href="/assets/styles.css">
 </head>
 <body>
+<a class="button case-cta skip-link" href="#main">Skip to Main &rarr;</a>
 <header class="site-header">
 	<div class="site-header__bar">
 		<a class="brand" href="/">
@@ -99,7 +100,7 @@
 		<button class="theme-toggle" data-theme-toggle type="button">Dark</button>
 	</nav>
 </header>
-<main>
+<main id="main" tab-inde="-1">
 	<div class="progress-bar" data-progress></div>
 
 <header class="case-header">
@@ -331,7 +332,7 @@
 			
 				<a class="cert-card" href="https://www.dropbox.com/scl/fi/tp8qy3ttg5k9frqbcdqcs/Isral-Duke.pdf?rlkey=urzvjljzngxeamcpr2wbrpv6z&amp;dl=0" target="_blank" rel="noopener noreferrer">
 					<div>
-						<div class="cert-card__title">DHS Trusted Tester Certification</div>
+						<div class="cert-card__title">DHS Trusted Tester</div>
 						<div class="cert-card__desc">Certified by Department of Homeland Security</div>
 					</div>
 					<span class="cert-card__date">2024-10-28</span>
@@ -384,32 +385,32 @@
 	<h2 class="section__eyebrow" id="talks">Talks</h2>
 	<div class="talks-grid">
 		
-			<a class="talk-card" href="https://youtu.be/UNe7NsCdfUE" target="_blank" rel="noopener noreferrer">
+			<a class="talk-card" href="https://youtu.be/UNe7NsCdfUE" target="_blank" rel="noopener noreferrer" aria-labelledby="just-in-time-usability">
 				<div class="talk-card__cover">
 					<span class="talk-card__play" aria-hidden="true">&#9654;</span>
 				</div>
 				<div class="talk-card__body">
-					<h3 class="talk-card__title">Just in Time Usability</h3>
+					<h3 class="talk-card__title" id="just-in-time-usability">Just in Time Usability</h3>
 					<p class="talk-card__desc">Isral Duke presents why accessibility is important for business. He also presents 10 things that site owners can do to quick check their site&#39;s accessibility and usability. Presented at a local ecommerce group lunch.</p>
 				</div>
 			</a>
 		
-			<a class="talk-card" href="https://youtu.be/zyohrLEZfys" target="_blank" rel="noopener noreferrer">
+			<a class="talk-card" href="https://youtu.be/zyohrLEZfys" target="_blank" rel="noopener noreferrer" aria-labelledby="accessible-friendly-content">
 				<div class="talk-card__cover">
 					<span class="talk-card__play" aria-hidden="true">&#9654;</span>
 				</div>
 				<div class="talk-card__body">
-					<h3 class="talk-card__title">Accessible, Friendly Content</h3>
+					<h3 class="talk-card__title" id="accessible-friendly-content">Accessible, Friendly Content</h3>
 					<p class="talk-card__desc">Isral Duke demonstrates how iOS and MacOS VoiceOver presents a simple web page. This talk promotes the use of semantic, meaningful markup to make a better user experience. Presented at Google Developer Groups.</p>
 				</div>
 			</a>
 		
-			<a class="talk-card" href="https://youtu.be/ZKYufkpBG6Q" target="_blank" rel="noopener noreferrer">
+			<a class="talk-card" href="https://youtu.be/ZKYufkpBG6Q" target="_blank" rel="noopener noreferrer" aria-labelledby="building-pelican-design-system">
 				<div class="talk-card__cover">
 					<span class="talk-card__play" aria-hidden="true">&#9654;</span>
 				</div>
 				<div class="talk-card__body">
-					<h3 class="talk-card__title">Building Pelican Design System</h3>
+					<h3 class="talk-card__title" id="building-pelican-design-system">Building Pelican Design System</h3>
 					<p class="talk-card__desc">Isral Duke presents version one of Pelican Design System. He talks about how it was created, and what&#39;s coming next in version two. Presented at SQL Saturday.</p>
 				</div>
 			</a>
@@ -520,7 +521,7 @@
 				</span>
 				<span class="brand__name">ISRAL DUKE</span>
 			</div>
-			<p class="site-footer__blurb">Design Manager with accessibility, AI, and design systems expertise.</p>
+			<p class="site-footer__blurb">Design Manager who can code, leading a team creating accessible and easy to use products.</p>
 			<a class="button case-cta" href="https://linkedin.com/in/isralduke" target="_blank" rel="noopener noreferrer">
 				Connect on LinkedIn &rarr;
 			</a>
@@ -548,7 +549,7 @@
 					</li>
 				
 					<li>
-						<a href="https://www.dropbox.com/scl/fi/tp8qy3ttg5k9frqbcdqcs/Isral-Duke.pdf?rlkey=urzvjljzngxeamcpr2wbrpv6z&amp;dl=0" target="_blank" rel="noopener noreferrer">DHS Trusted Tester Certification</a>
+						<a href="https://www.dropbox.com/scl/fi/tp8qy3ttg5k9frqbcdqcs/Isral-Duke.pdf?rlkey=urzvjljzngxeamcpr2wbrpv6z&amp;dl=0" target="_blank" rel="noopener noreferrer">DHS Trusted Tester</a>
 					</li>
 				
 					<li>
@@ -600,12 +601,7 @@
 </ul>
 
 	</nav>
-	<div class="site-footer__legal">
-		<div class="site-footer__legal-row">
-			<span>&copy; 2026 Isral Duke</span>
-			<span>Baton Rouge, Louisiana</span>
-		</div>
-	</div>
+	
 </footer>
 
 <script src="/assets/main.js" defer></script>

@@ -14,8 +14,9 @@
 	<link rel="stylesheet" href="/assets/styles.css">
 </head>
 <body>
+<a class="button case-cta skip-link" href="#main">Skip to Main &rarr;</a>
 {% include "_header.njk" %}
-<main>
+<main id="main" tab-inde="-1">
 	{{ content | safe }}
 </main>
 {% include "_skills.njk" %}

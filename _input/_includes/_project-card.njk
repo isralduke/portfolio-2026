@@ -2,8 +2,8 @@
 	<div class="project-card__cover">
 		<img src="{{ item.data.coverImage }}" alt="{{ item.data.coverImageAlt }}">
 	</div>
-	<div class="project-card__body" aria-labelledby="{{ item.data.title | slugify }}">
-		<h3 class="project-card__title" id="{{ item.data.title | slugify }}">{{ item.data.title }}</h3>
+	<div class="project-card__body">
+		<p class="project-card__title" id="{{ item.data.title | slugify }}">{{ item.data.title }}</p>
 		<p class="project-card__excerpt">{{ item.data.excerpt }}</p>
 	</div>
 </a>

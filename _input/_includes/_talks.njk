@@ -2,12 +2,12 @@
 	<h2 class="section__eyebrow" id="talks">Talks</h2>
 	<div class="talks-grid">
 		{% for item in talks %}
-			<a class="talk-card" href="{{ item.link }}" target="_blank" rel="noopener noreferrer">
+			<a class="talk-card" href="{{ item.link }}" target="_blank" rel="noopener noreferrer" aria-labelledby="{{ item.title | slugify }}">
 				<div class="talk-card__cover">
 					<span class="talk-card__play" aria-hidden="true">&#9654;</span>
 				</div>
 				<div class="talk-card__body">
-					<h3 class="talk-card__title">{{ item.title }}</h3>
+					<h3 class="talk-card__title" id="{{ item.title | slugify }}">{{ item.title }}</h3>
 					<p class="talk-card__desc">{{ item.description }}</p>
 				</div>
 			</a>
