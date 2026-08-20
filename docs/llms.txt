@@ -36,11 +36,10 @@ Fifteen years designing and coding standards-compliant products, a state design 
 
 ## Certifications
 
-- [Practical Accessibility](https://www.dropbox.com/scl/fi/nuczlr5phcd6zjzsh9sdj/isral-Duke-2.pdf?rlkey=3kf91o54otjm65h0in9s8z0ru&amp;dl=0): Certified by Sara Soueidan
-- [DHS Trusted Tester](https://www.dropbox.com/scl/fi/tp8qy3ttg5k9frqbcdqcs/Isral-Duke.pdf?rlkey=urzvjljzngxeamcpr2wbrpv6z&amp;dl=0): Certified by Department of Homeland Security
+- [Practical Accessibility](https://www.dropbox.com/scl/fi/ou9dhhiobvco6kcnp0r7s/isral-Duke-2.pdf?rlkey=d2q10h3r9agoug8kj6i68r89o&amp;st=fpo9hesu&amp;dl=0): Certified by Sara Soueidan
+- [DHS Trusted Tester](https://www.dropbox.com/scl/fi/4odbv5zpu04zgictqzpji/Isral-Duke.pdf?rlkey=7j9mghsrglzg06coqw4w01xtq&amp;st=o1lxfsi6&amp;dl=0): Certified by Department of Homeland Security
 - [Smart Interface Design Patterns](https://badge.smart-interface-design-patterns.com/isral-duke/): Certified by Smashing Magazine
-- [Designers Accessibility Curriculum](https://www.dropbox.com/scl/fi/94rmscnhne971jm7c4y2k/isral-Duke-Designers_Package-Completion-Certificate.pdf?rlkey=u9kw9lgpdn7go3rwoi22yyo4n&amp;dl=0): Certified by Deque University
-- [W3C Intro to Accessibility](https://courses.edx.org/certificates/42dc6997e0c4460f885d0763411dee0c): Certified by W3C via edX
+- [Designers Accessibility Curriculum](https://www.dropbox.com/scl/fi/mqrzajt8p0x94jtu3eh7v/isral-Duke-Designers_Package-Completion-Certificate.pdf?rlkey=6l74ma9ce8rlhkgbngkipmuc0&amp;st=7b18dgt2&amp;dl=0): Certified by Deque University
 - [Google UX Design](https://www.coursera.org/account/accomplishments/professional-cert/YD2XXQJSTD8V?utm_source=link&amp;utm_medium=certificate&amp;utm_content=cert_image&amp;utm_campaign=sharing_cta&amp;utm_product=prof): Certified by Google via Coursera
 - [Interaction Design](https://www.coursera.org/account/accomplishments/specialization/RG5C62YCCCP5?utm_source=link&amp;utm_medium=certificate&amp;utm_content=cert_image&amp;utm_campaign=sharing_cta&amp;utm_product=s12n): Certified by UC San Diego via Coursera
 
