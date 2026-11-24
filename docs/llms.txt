@@ -1,0 +1,80 @@
+# isral Duke
+
+> Design Manager who can code, leading a team creating accessible and easy to use products.
+
+Fifteen years designing and coding standards-compliant products, a state design system, a digital drivers license, and telemedicine tooling. I make things everyone can use.
+
+## Skills
+
+### Accessibility
+
+- Accessible Markup
+- Proper ARIA
+- WCAG 2.2
+- Screen Readers
+
+### Design
+
+- Inclusive Design
+- Design Systems
+- Product Design
+- Visual Design
+
+### Technical
+
+- Accessible Markup
+- Frontend
+- HTML, SCSS, CSS
+- Working within technical constraints
+
+### User Experience
+
+- User Research
+- Information Architecture
+- Accessible Content
+- Public Speaking
+
+## Certifications
+
+- [Practical Accessibility](https://www.dropbox.com/scl/fi/ou9dhhiobvco6kcnp0r7s/isral-Duke-2.pdf?rlkey=d2q10h3r9agoug8kj6i68r89o&amp;st=fpo9hesu&amp;dl=0): Certified by Sara Soueidan
+- [DHS Trusted Tester](https://www.dropbox.com/scl/fi/4odbv5zpu04zgictqzpji/Isral-Duke.pdf?rlkey=7j9mghsrglzg06coqw4w01xtq&amp;st=o1lxfsi6&amp;dl=0): Certified by Department of Homeland Security
+- [Smart Interface Design Patterns](https://badge.smart-interface-design-patterns.com/isral-duke/): Certified by Smashing Magazine
+- [Designers Accessibility Curriculum](https://www.dropbox.com/scl/fi/mqrzajt8p0x94jtu3eh7v/isral-Duke-Designers_Package-Completion-Certificate.pdf?rlkey=6l74ma9ce8rlhkgbngkipmuc0&amp;st=7b18dgt2&amp;dl=0): Certified by Deque University
+- [Google UX Design](https://www.coursera.org/account/accomplishments/professional-cert/YD2XXQJSTD8V?utm_source=link&amp;utm_medium=certificate&amp;utm_content=cert_image&amp;utm_campaign=sharing_cta&amp;utm_product=prof): Certified by Google via Coursera
+- [Interaction Design](https://www.coursera.org/account/accomplishments/specialization/RG5C62YCCCP5?utm_source=link&amp;utm_medium=certificate&amp;utm_content=cert_image&amp;utm_campaign=sharing_cta&amp;utm_product=s12n): Certified by UC San Diego via Coursera
+
+## Product Design Projects
+
+- [Art Gallery App](https://isralduke.com/product-design/art-gallery-app/): Art gallery app helps visitors plan trips, see current artwork collections, and buy tickets for themselves and loved ones.
+- [Budget App](https://isralduke.com/product-design/budget-app/): Budgeting app helps people who are new to budgeting create a budget and think along with their budget as they spend.
+- [Design System](https://isralduke.com/product-design/design-system/): Design System allows team members to access a single source of truth and quickly produce value.
+- [Event Guide App](https://isralduke.com/product-design/event-guide-app/): Mobile app provides conference attendees quick access to relevant presentation details and schedule information.
+- [Food Truck Site](https://isralduke.com/product-design/food-truck-site/): A responsive website for a food truck allows visitors to find its daily location and pay ahead.
+- [Karaoke App](https://isralduke.com/product-design/karaoke-app/): iOS application allows patrons to create and participate in ad hoc karaoke competitions.
+- [Medical Diagnosis App](https://isralduke.com/product-design/medical-diagnosis-app/): Web application allows licensed medical personnel to remotely diagnose patients.
+- [Sketch Note App](https://isralduke.com/product-design/sketch-note-app/): Sketch note app allows users to create quick sticky notes on their phones.
+- [Step Counter App](https://isralduke.com/product-design/step-counter-app/): A watchOS and iOS step counter app which gives users a glanceable view of their steps as a watch face complication with an accompanying iOS app.
+
+## References
+
+- [James Alt](https://www.linkedin.com/in/altjames): Chief Architect at Louisiana Office of Technology Services
+- [Kristina Truong](https://www.linkedin.com/in/haotaku): UX Designer at Louisiana Office of Technology Services
+- [Elle Waters](https://www.linkedin.com/in/nethermind): Accessibility at Workday
+- [Guy J. Anglade](https://www.linkedin.com/in/gjanglade/): Director of Website Content at Morgan Stanley
+- [Patrick Rills](https://www.linkedin.com/in/patrick-rills): Engineering Manager at RevenueCat
+- [Glynnis Ritchie](https://www.linkedin.com/in/glynnisritchie): UX / UI and Product Designer at Flagrant
+- [Dr. James Davis](https://www.linkedin.com/in/jdavisphd): Freelance client at Louisiana State University
+- [Matthew Magnuson](https://www.linkedin.com/in/matthew-magnuson-2b2951): Managing Partner at DMM Motorsports
+- [Mike Cole](https://www.linkedin.com/in/mike-cole-lsu): Product Manager at Harman
+
+## Talks
+
+- [Just in Time Usability](https://youtu.be/UNe7NsCdfUE): Isral Duke presents why accessibility is important for business. He also presents 10 things that site owners can do to quick check their site&#39;s accessibility and usability. Presented at a local ecommerce group lunch.
+- [Accessible, Friendly Content](https://youtu.be/zyohrLEZfys): Isral Duke demonstrates how iOS and MacOS VoiceOver presents a simple web page. This talk promotes the use of semantic, meaningful markup to make a better user experience. Presented at Google Developer Groups.
+- [Building Pelican Design System](https://youtu.be/ZKYufkpBG6Q): Isral Duke presents version one of Pelican Design System. He talks about how it was created, and what&#39;s coming next in version two. Presented at SQL Saturday.
+
+## Education
+- Master of Science, Information Technology, Web Design: Southern New Hampshire University
+- Bachelor of Arts, Graphic Design: Louisiana State University
+
+

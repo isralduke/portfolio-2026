@@ -1,0 +1,42 @@
+---
+permalink: /llms.txt
+eleventyExcludeFromCollections: true
+---
+# {{ site.name }}
+
+> {{ site.occupation }}
+
+{{ site.hero.lede }}
+
+## Skills
+{% for item in skills %}
+### {{ item.title }}
+
+{% for listitem in item.listItems -%}
+- {{ listitem }}
+{% endfor %}{% endfor %}
+## Certifications
+
+{% for item in certifications -%}
+- [{{ item.title }}]({{ item.link}}): {{ item.description }}
+{% endfor %}
+## Product Design Projects
+
+{% for item in collections["product-design"] -%}
+- [{{ item.data.title }}](https://isralduke.com{{ item.url }}): {{ item.data.excerpt }}
+{% endfor %}
+## References
+
+{% for item in references -%}
+- [{{ item.name }}]({{item.link}}): {{ item.title }} at {{ item.employer }}
+{% endfor %}
+## Talks
+
+{% for item in talks -%}
+- [{{ item.title}}]({{ item.link }}): {{ item.description }}
+{% endfor %}
+## Education
+{% for item in educations -%}
+- {{ item.title }}: {{ item.school }}
+{% endfor %}
+
