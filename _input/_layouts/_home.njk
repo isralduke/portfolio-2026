@@ -29,7 +29,7 @@ layout: _base.njk
 		{% endif %}
 	{% endfor %}
 	<div class="project-grid">
-		{% set nonFeaturedItems = collections["product-design"] | rejectattr("data.featured") %}
+		{% set nonFeaturedItems = collections["product-design"] | withoutFeatured %}
 		{% for item in nonFeaturedItems | batch(3) | first %}
 			{% include "_project-card.njk" %}
 		{% endfor %}

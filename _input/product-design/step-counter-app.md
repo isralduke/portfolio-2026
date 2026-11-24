@@ -1,6 +1,5 @@
 ---
 title: Step Counter App
-pageTitle: Step Counter App — Isral Duke
 pageDescription: >-
   A watchOS and iOS step counter app which gives users a glanceable view of their steps as a watch
   face complication with an accompanying iOS app.

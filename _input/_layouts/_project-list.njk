@@ -13,7 +13,7 @@ layout: _base.njk
 		{% elif "visual-design" in page.url %}
 			{% set items = collections["visual-design"] %}
 		{% endif %}
-		{% for item in items %}
+		{% for item in items | sort(false, false, "data.order") %}
 			{% include "_project-card.njk" %}
 		{% endfor %}
 	</div>

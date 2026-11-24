@@ -4,6 +4,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addDataExtension("yaml,yml", (contents) => yaml.load(contents));
   eleventyConfig.addPassthroughCopy("_input/assets");
   eleventyConfig.addPassthroughCopy("_input/images");
+  eleventyConfig.addFilter("withoutFeatured", (items) =>
+    items.filter((item) => item.data.featured !== true)
+  );
 
   eleventyConfig.addCollection("product-design", function (collectionApi) {
     return collectionApi.getFilteredByGlob("_input/product-design/*.md").filter(

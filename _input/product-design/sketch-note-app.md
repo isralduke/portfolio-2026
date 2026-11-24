@@ -1,6 +1,5 @@
 ---
 title: Sketch Note App
-pageTitle: Sketch Note App — Isral Duke
 pageDescription: Sketch note app allows users to create quick sticky notes on their phones.
 excerpt: Sketch note app allows users to create quick sticky notes on their phones.
 order: 8

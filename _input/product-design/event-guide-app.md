@@ -1,6 +1,5 @@
 ---
 title: Event Guide App
-pageTitle: Event Guide App — Isral Duke
 pageDescription: >-
   Mobile app provides conference attendees quick access to relevant presentation details and
   schedule information.

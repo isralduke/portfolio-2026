@@ -1,6 +1,5 @@
 ---
 title: Food Truck Site
-pageTitle: Food Truck Site — Isral Duke
 pageDescription: A responsive website for a food truck allows visitors to find its daily location and pay ahead.
 excerpt: A responsive website for a food truck allows visitors to find its daily location and pay ahead.
 order: 6

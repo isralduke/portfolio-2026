@@ -1,6 +1,5 @@
 ---
 title: Design System
-pageTitle: Design System — Isral Duke
 pageDescription: Design System allows team members to access a single source of truth and quickly produce value.
 excerpt: Design System allows team members to access a single source of truth and quickly produce value.
 order: 4

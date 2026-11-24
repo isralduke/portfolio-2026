@@ -1,6 +1,5 @@
 ---
 title: Karaoke App
-pageTitle: Karaoke App — Isral Duke
 pageDescription: iOS application allows patrons to create and participate in ad hoc karaoke competitions.
 excerpt: iOS application allows patrons to create and participate in ad hoc karaoke competitions.
 order: 7

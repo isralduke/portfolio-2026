@@ -1,10 +1,9 @@
 ---
 title: Medical Diagnosis App
-pageTitle: Medical Diagnosis App — Isral Duke
 pageDescription: Web application allows licensed medical personnel to remotely diagnose patients.
 excerpt: Web application allows licensed medical personnel to remotely diagnose patients.
 order: 1
-featured: true
+featured: false
 coverImage: /images/product-design/medical-diagnosis-app/feature.png
 coverImageAlt: Laptop and tablet showing the nurses’s main view for a patient video call.
 stats:

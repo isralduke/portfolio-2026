@@ -1,6 +1,5 @@
 ---
 title: Art Gallery App
-pageTitle: Art Gallery App — Isral Duke
 pageDescription: >-
   Art gallery app helps visitors plan trips, see current artwork collections, and buy tickets for
   themselves and loved ones.
@@ -8,7 +7,7 @@ excerpt: >-
   Art gallery app helps visitors plan trips, see current artwork collections, and buy tickets for
   themselves and loved ones.
 order: 2
-featured: false
+featured: true
 coverImage: /images/product-design/art-gallery-app/feature.png
 coverImageAlt: Three screens of the art gallery app showing the home, ticket purchase, and artwork collection screens.
 stats:

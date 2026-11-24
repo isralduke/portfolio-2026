@@ -1,6 +1,5 @@
 ---
 title: Budget App
-pageTitle: Budget App — Isral Duke
 pageDescription: >-
   Budgeting app helps people who are new to budgeting create a budget and think along with their
   budget as they spend.
